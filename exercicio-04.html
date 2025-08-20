@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maior para menor</title>
+</head>
+<body>
+    <script>
+        let valor1 = prompt("Digite o primeiro valor: ")
+        let valor2 = prompt("Digite o segundo valor: ")
+        let maior, menor
+
+        if (valor1 > valor2) {
+            maior = valor1
+            menor = valor2
+
+        }else{
+            maior = valor2
+            menor = valor1
+        }
+
+        while (maior >= menor) {
+            console.log(maior)
+            maior--
+        }
+    
+    </script>
+</body>
+</html>
